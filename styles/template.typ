@@ -19,7 +19,7 @@
 ]
 
 #let definizione(body, titolo: "Definizione") = riquadro(titolo, body)
-#let esempio(body, titolo: "Esempio pratico") = riquadro(titolo, body)
+#let esempio(body, titolo: "Esempio") = riquadro(titolo, body)
 #let domande(body, titolo: "Domande di riflessione") = riquadro(titolo, body)
 
 #let figura(percorso, didascalia, larghezza: 85%, alt: none) = figure(
@@ -46,7 +46,7 @@
   ],
 )
 
-#let dispensa(body, titolo: "Comunicazione d'impresa") = {
+#let dispensa(body, titolo: "Elementi di comunicazione e comunicazione aziendale") = {
   set document(title: titolo)
   // Font incluso in Typst: nessuna installazione aggiuntiva in locale o in CI.
   set text(font: "Libertinus Serif", size: 11pt, lang: "it", fill: black)
@@ -62,8 +62,18 @@
   )
   set par(justify: true, leading: 0.65em, spacing: 0.8em)
   set heading(numbering: "1.1")
+  set list(indent: 14pt, body-indent: 5pt, spacing: 0.32em)
   set block(above: 9pt, below: 9pt)
   set figure(gap: 7pt)
+  set table(
+    inset: (x: 7pt, y: 6pt),
+    stroke: (x: none, y: 0.45pt + bordo),
+  )
+  show table: it => {
+    set text(size: 10pt)
+    set par(justify: false, leading: 0.4em)
+    it
+  }
   show heading: it => block(sticky: true, above: 18pt, below: 9pt)[#it]
   show heading.where(level: 1): set text(size: 19pt, weight: "bold", fill: rosso)
   show heading.where(level: 2): set text(size: 14pt, weight: "bold")
@@ -72,9 +82,10 @@
   show link: set text(fill: rosso)
 
   block(below: 20pt)[
+    #set par(justify: false)
     #line(length: 22mm, stroke: 3pt + rosso)
     #v(12pt)
-    #text(size: 28pt, weight: "bold")[#titolo]
+    #text(size: 28pt, weight: "bold", hyphenate: false)[#titolo]
     #v(12pt)
     #text(size: 10pt)[Dispensa didattica rielaborata a partire da Annalisa Galardi, Comunicazione d'impresa.]
     #v(10pt)
