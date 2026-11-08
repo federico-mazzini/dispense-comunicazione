@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="265" viewBox="0 0 960 265">
-<style>text{font-family:'DejaVu Sans',Arial,sans-serif;fill:#252525}.label{font-size:27px}.big{font-size:76px;font-weight:700;letter-spacing:4px}</style>
-<g fill="none" stroke="#333" stroke-width="5" stroke-linecap="round"><circle cx="248" cy="103" r="43"/><path d="M248 10V43 M248 163V196 M155 103H188 M307 103H340 M180 35L203 58 M292 148L315 171 M316 35L293 58 M202 147L180 171"/></g>
-<text x="715" y="128" class="big" text-anchor="middle">SOLE</text>
-<text x="248" y="242" class="label" text-anchor="middle">Modulo analogico</text><text x="715" y="242" class="label" text-anchor="middle">Modulo digitale</text>
-</svg>

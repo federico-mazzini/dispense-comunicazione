@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330">
-<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#505050"/></marker></defs>
-<style>text{font-family:'DejaVu Sans',Arial,sans-serif;fill:#242424}.title{font-size:29px;font-weight:bold}.say{font-size:23px}.note{font-size:22px}.arr{fill:none;stroke:#555;stroke-width:3;marker-end:url(#a)}</style>
-<rect x="22" y="28" width="438" height="144" rx="9" fill="white" stroke="#b8ada9" stroke-width="2.5"/><rect x="640" y="28" width="438" height="144" rx="9" fill="white" stroke="#b8ada9" stroke-width="2.5"/>
-<text x="240" y="74" class="title" text-anchor="middle">Persona A</text><text x="240" y="118" class="say" text-anchor="middle">«Ti evito perché</text><text x="240" y="149" class="say" text-anchor="middle">mi rispondi male»</text>
-<text x="860" y="74" class="title" text-anchor="middle">Persona B</text><text x="860" y="118" class="say" text-anchor="middle">«Ti rispondo male</text><text x="860" y="149" class="say" text-anchor="middle">perché mi eviti»</text>
-<path d="M460 91H631" class="arr"/><path d="M862 174V236H238V179" class="arr"/>
-<text x="550" y="283" class="note" text-anchor="middle">Entrambi interpretano il proprio gesto come una reazione</text>
-</svg>

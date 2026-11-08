@@ -3,9 +3,8 @@
 ## Istruzioni operative per l’agente
 
 - Compila sempre `src/main.typ`; i capitoli sono in `src/capitoli/` e il template comune in `styles/template.typ`.
-- Parti dai materiali in `materiali/`. Conserva i file originali; modifica soltanto i sorgenti attivi. Non inventare contenuti, casi o fonti mancanti.
-- La fonte disponibile è `materiali/sorgenti-originali/dispense_comunicazione.typ`: tre capitoli e 18 esempi. Non contiene casi reali documentati né URL di fonti esterne.
-- Usa le immagini in `assets/` con percorsi dalla radice, per esempio `/assets/svg/modello.svg`. La figura delle confezioni è esclusa dal documento; il file originale è conservato.
+- Modifica i tre capitoli in `src/capitoli/`, che contengono la teoria e i 18 esempi. Non inventare contenuti, casi o fonti mancanti.
+- Usa gli SVG in `assets/svg/` con percorsi dalla radice, per esempio `/assets/svg/modello.svg`.
 - Aggiungi ogni nuovo capitolo a `src/main.typ` con `#include "capitoli/nome.typ"`. Mantieni gli stili e i componenti nel template.
 - Prima del commit, compila con Typst 0.15.1 e controlla visivamente tutte le pagine. Non versionare `dist/`.
 
