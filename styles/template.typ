@@ -12,7 +12,7 @@
   below: 12pt,
 )[
   #set par(justify: false)
-  #block(below: 5pt, sticky: true)[
+  #block(below: 8pt, sticky: true)[
     #text(font: "Libertinus Serif", weight: "bold", fill: rosso)[#titolo]
   ]
   #body
@@ -60,9 +60,9 @@
     },
     footer: context align(right, text(size: 9pt, fill: grigio, counter(page).display("1"))),
   )
-  set par(justify: true, leading: 0.65em, spacing: 0.8em)
+  set par(justify: true, leading: 0.60em, spacing: 0.8em)
   set heading(numbering: "1.1")
-  set list(indent: 14pt, body-indent: 5pt, spacing: 0.32em)
+  set list(indent: 14pt, body-indent: 5pt, spacing: 0.85em)
   set block(above: 9pt, below: 9pt)
   set figure(gap: 7pt)
   set table(
@@ -74,7 +74,7 @@
     set par(justify: false, leading: 0.4em)
     it
   }
-  show heading: it => block(sticky: true, above: 18pt, below: 9pt)[#it]
+  show heading: set block(sticky: true, above: 18pt, below: 12pt)
   show heading.where(level: 1): set text(size: 19pt, weight: "bold", fill: rosso)
   show heading.where(level: 2): set text(size: 14pt, weight: "bold")
   show heading.where(level: 3): set text(size: 11.5pt, weight: "bold", fill: rosso)
