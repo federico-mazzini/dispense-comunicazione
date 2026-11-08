@@ -1,0 +1,58 @@
+name: Compila e pubblica le dispense
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Compila PDF
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Scarica i sorgenti
+        uses: actions/checkout@v7
+      - name: Installa Typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: '0.15.1'
+      - name: Compila e prepara il sito
+        run: bash scripts/build.sh
+      - name: Carica il PDF scaricabile
+        uses: actions/upload-artifact@v7
+        with:
+          name: dispense-comunicazione-pdf
+          path: dist/dispense-comunicazione.pdf
+          if-no-files-found: error
+          retention-days: 30
+      - name: Prepara artifact per GitHub Pages
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    name: Pubblica su GitHub Pages
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configura GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Pubblica sito e PDF
+        id: deployment
+        uses: actions/deploy-pages@v4

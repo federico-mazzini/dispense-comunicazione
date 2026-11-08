@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="275" viewBox="0 0 960 275">
+<style>text{font-family:'DejaVu Sans',Arial,sans-serif;fill:#303030}.lab{font-size:26px}</style>
+<g fill="white" stroke="#353535" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M220 44h77v32l38 49v98q0 15-17 15H196q-17 0-17-15v-98l41-49z"/><path d="M212 44V27h95v17"/><path d="M186 157h138"/><path d="M204 189c28 22 67 22 99 0"/>
+<path d="M699 44h68v32l17 30v116q0 17-15 17h-72q-15 0-15-17V106l17-30z"/><path d="M697 44V27h74v17"/><path d="M686 143h94"/>
+</g><text x="255" y="267" text-anchor="middle" class="lab">Confezione decorativa</text><text x="733" y="267" text-anchor="middle" class="lab">Confezione essenziale</text></svg>

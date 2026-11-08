@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dispense di Comunicazione d'impresa per la scuola secondaria superiore.">
+  <title>Comunicazione d'impresa</title>
+  <style>
+    :root { color-scheme: light; --rosso: #c00000; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: white; color: black; font: 1.1rem/1.7 Georgia, serif; }
+    main { max-width: 48rem; margin: 12vh auto; padding: 2rem; border-top: .25rem solid var(--rosso); }
+    .etichetta { font: .8rem/1.5 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #555; }
+    h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.15; margin: 1rem 0 1.5rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0; }
+    a { color: var(--rosso); text-underline-offset: .2em; }
+    nav a { padding: .65rem 1rem; border: 1px solid var(--rosso); font-family: system-ui, sans-serif; }
+    nav a:first-child { background: var(--rosso); color: white; }
+    a:focus-visible { outline: 3px solid black; outline-offset: 4px; }
+    footer { border-top: 1px solid #ddd; padding-top: 1rem; font-size: .9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="etichetta">Dispense didattiche</p>
+    <h1>Comunicazione d'impresa</h1>
+    <p>Materiali per gli studenti della scuola secondaria superiore, disponibili in PDF.</p>
+    <p>Il progetto è in preparazione: il documento attuale è un esempio tecnico, in attesa dei capitoli didattici.</p>
+    <nav aria-label="Accedi alle dispense">
+      <a href="dispense-comunicazione.pdf">Visualizza il PDF</a>
+      <a href="dispense-comunicazione.pdf" download>Scarica il PDF</a>
+    </nav>
+    <footer>Dispensa didattica rielaborata a partire da Annalisa Galardi, Comunicazione d'impresa.</footer>
+  </main>
+</body>
+</html>

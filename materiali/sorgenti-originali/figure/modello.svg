@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="355" viewBox="0 0 1160 355">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#565b5d"/></marker></defs>
+<style>text{font-family:'DejaVu Sans',Arial,sans-serif;fill:#252525}.headline{font-size:27px;font-weight:700}.sub{font-size:19px}.micro{font-size:18px;fill:#505050}.outline{fill:white;stroke:#b3aaaa;stroke-width:2}.arrow{fill:none;stroke:#565b5d;stroke-width:2.6;marker-end:url(#a)}</style>
+<rect x="12" y="12" width="1136" height="327" rx="8" fill="white" stroke="#b9b3af" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="580" y="48" text-anchor="middle" class="headline" fill="#a33b32">CONTESTO</text>
+<rect x="40" y="120" width="260" height="104" rx="8" class="outline"/><rect x="445" y="120" width="270" height="104" rx="8" class="outline"/><rect x="860" y="120" width="260" height="104" rx="8" class="outline"/>
+<text x="170" y="161" text-anchor="middle" class="headline">Mittente</text><text x="170" y="192" text-anchor="middle" class="sub">Codifica</text>
+<text x="580" y="161" text-anchor="middle" class="headline">Messaggio</text><text x="580" y="192" text-anchor="middle" class="sub">Codice e canale</text>
+<text x="990" y="161" text-anchor="middle" class="headline">Destinatario</text><text x="990" y="192" text-anchor="middle" class="sub">Decodifica</text>
+<path d="M300 172H438" class="arrow"/><path d="M715 172H853" class="arrow"/>
+<text x="580" y="93" text-anchor="middle" class="micro">RUMORE: può disturbare il messaggio</text>
+<path d="M990 225V290H170V232" class="arrow"/><rect x="502" y="268" width="156" height="41" fill="white" stroke="#d6cecb" rx="4"/><text x="580" y="295" text-anchor="middle" class="headline" style="font-size:25px">Feedback</text>
+</svg>
