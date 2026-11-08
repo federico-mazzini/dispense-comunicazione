@@ -51,8 +51,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Configura GitHub Pages
-        uses: actions/configure-pages@v5
       - name: Pubblica sito e PDF
         id: deployment
         uses: actions/deploy-pages@v4
