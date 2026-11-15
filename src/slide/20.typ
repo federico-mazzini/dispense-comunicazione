@@ -1,6 +1,6 @@
 #import "/styles/slides.typ": *
 
-#slide([Assioma 5: relazioni simmetriche e complementari])[
+#slide-assioma(5, [Gli scambi comunicativi sono simmetrici e complementari])[
 #colonne[
 *Relazione simmetrica*
 
@@ -17,5 +17,5 @@ Gli interlocutori ricoprono ruoli differenti e riconoscono le rispettive respons
 #v(12pt)
 Una relazione complementare non è necessariamente migliore o peggiore di una simmetrica.
 
-*Comunicare significa anche costruire significati e relazioni, oltre a trasmettere informazioni.*
+Comunicare significa anche costruire *significati e relazioni*, oltre a trasmettere informazioni.
 ]

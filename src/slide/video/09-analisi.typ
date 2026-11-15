@@ -1,12 +1,12 @@
 #import "/styles/slides.typ": analisi-video
 
 #analisi-video(
-  [Ruoli e gerarchie nella comunicazione],
+  [Assioma 5],
   (
-    [La scena rappresenta una *relazione complementare*.],
-    [Miranda ricopre una posizione di autorità rispetto ad Andy.],
-    [I ruoli e la gerarchia influenzano le modalità dello scambio comunicativo.],
-    [La complementarità non indica necessariamente un rapporto negativo, ma una differenza di ruolo.],
+    [Fantozzi e il megadirettore costruiscono uno scambio *complementare*: i loro comportamenti confermano la differenza di ruolo.],
+    [Tra i tre amici prevale uno scambio *simmetrico*: ciascuno può replicare e cercare di far valere la propria posizione.],
+    [La relazione influenza le parole, il tono, i turni di parola e la possibilità di contraddire l'interlocutore.],
+    [Una relazione simmetrica può essere collaborativa o competitiva. Una relazione complementare può prevedere rispetto e collaborazione.],
   ),
-  [le relazioni comunicative possono essere simmetriche o complementari a seconda dei ruoli ricoperti dagli interlocutori.],
+  [Per riconoscere il tipo di scambio osserviamo come gli interlocutori definiscono e riconoscono i rispettivi ruoli.],
 )

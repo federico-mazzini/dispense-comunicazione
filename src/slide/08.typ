@@ -5,7 +5,7 @@ Un insegnante parla in italiano a uno studente che conosce soltanto l'arabo.
 
 Il suono arriva correttamente, ma lo studente non riesce a comprendere il messaggio.
 
-*Il problema non è il canale, ma la mancanza di un codice linguistico condiviso.*
+Il problema non è il canale, ma la mancanza di un *codice linguistico condiviso*.
 
 
 #domanda[

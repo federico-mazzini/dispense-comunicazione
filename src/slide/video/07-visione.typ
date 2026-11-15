@@ -1,7 +1,7 @@
 #import "/styles/slides.typ": caso-video
 
 #caso-video(
-  [Chi ha iniziato il litigio?],
+  [Assioma 3],
   "Ti odio, ti lascio, ti... – La discussione",
   "https://www.youtube.com/watch?v=JxesBShLUqo",
   "/assets/video/caso-07.jpg",

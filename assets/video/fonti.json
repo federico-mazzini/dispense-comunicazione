@@ -21,17 +21,17 @@
   },
   {
     "caso": 3,
-    "video": "A Conference Call in Real Life – Tripp & Tyler",
-    "url": "https://www.youtube.com/watch?v=DYu_bGbZiiQ",
-    "miniatura": "https://img.youtube.com/vi/DYu_bGbZiiQ/maxresdefault.jpg",
-    "asset": "assets/video/caso-03.jpg",
-    "titolo_youtube": "A Conference Call in Real Life",
-    "autore": "Best,",
+    "video": "BBC News – I bambini interrompono l’intervista",
+    "url": "https://www.youtube.com/watch?v=Mh4f9AYRCZY",
+    "miniatura": "https://i.ytimg.com/vi/Mh4f9AYRCZY/hqdefault.jpg",
+    "asset": "assets/video/caso-03-bbc.jpg",
+    "titolo_youtube": "Children interrupt BBC News interview - BBC News",
+    "autore": "BBC News",
     "metadati_verificati": true
   },
   {
     "caso": 4,
-    "video": "Inside Out – Gioia, Tristezza e Bing Bong (01:06–02:11)",
+    "video": "Inside Out – Gioia, Tristezza e Bing Bong",
     "url": "https://www.youtube.com/watch?v=t-asXorVstM&t=66",
     "miniatura": "https://img.youtube.com/vi/t-asXorVstM/maxresdefault.jpg",
     "asset": "assets/video/caso-04.jpg",
@@ -43,12 +43,13 @@
     "caso": 5,
     "video": "Mr. Bean – Gli esami del signor Bean",
     "url": "https://www.youtube.com/watch?v=cvPamL5G-G8",
-    "miniatura": null,
-    "asset": null,
+    "miniatura": "https://i.ytimg.com/vi/9LhLjpsstPY/hqdefault.jpg",
+    "asset": "assets/video/caso-05.jpg",
     "titolo_youtube": null,
     "autore": null,
     "metadati_verificati": false,
-    "nota_verifica": "Miniatura non disponibile (HTTP 404); richiesta oEmbed rifiutata (HTTP 403). Collegamento scelto conservato, da verificare manualmente."
+    "nota_verifica": "Miniatura della scena dell’esame tratta dal canale ufficiale Mr Bean. Il collegamento originale della slide è conservato.",
+    "fonte_miniatura": "https://www.youtube.com/watch?v=9LhLjpsstPY"
   },
   {
     "caso": 6,
@@ -82,12 +83,22 @@
   },
   {
     "caso": 9,
-    "video": "Il diavolo veste Prada – Questa \"roba\" (maglione ceruleo)",
-    "url": "https://www.youtube.com/watch?v=3lu_2xIaDng",
-    "miniatura": "https://img.youtube.com/vi/3lu_2xIaDng/maxresdefault.jpg",
-    "asset": "assets/video/caso-09.jpg",
-    "titolo_youtube": "IL DIAVOLO VESTE PRADA | Questa \"roba\"",
-    "autore": "MovieDigger",
+    "video": "Fantozzi – Il megadirettore galattico",
+    "url": "https://www.youtube.com/watch?v=zAwFdgPPwpk",
+    "miniatura": "https://i.ytimg.com/vi/zAwFdgPPwpk/hqdefault.jpg",
+    "asset": "assets/video/caso-09-fantozzi.jpg",
+    "titolo_youtube": "Fantozzi e il megadirettore galattico",
+    "autore": "Viva \"MrJoshuiae\" Italia",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 10,
+    "video": "Aldo, Giovanni e Giacomo – Subaru Baracca",
+    "url": "https://www.youtube.com/watch?v=RbGpUemSXAA",
+    "miniatura": "https://i.ytimg.com/vi/RbGpUemSXAA/hqdefault.jpg",
+    "asset": "assets/video/caso-10-subaru.jpg",
+    "titolo_youtube": "The Subaru Baracca Journey | Aldo Giovanni and Giacomo - Tel chi el telun",
+    "autore": "Aldo Giovanni e Giacomo Ufficiale",
     "metadati_verificati": true
   }
 ]

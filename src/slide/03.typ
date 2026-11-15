@@ -9,7 +9,9 @@
 L'informazione è una delle possibili funzioni della comunicazione.
 ][
 #esempio[
+
 - Un cartello indica che domani la scuola è chiusa: *informazione*.
+
 - Due studenti discutono della chiusura e si scambiano domande e opinioni: *comunicazione*.
 ]
 ]

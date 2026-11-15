@@ -1,7 +1,7 @@
 #import "/styles/slides.typ": caso-video
 
 #caso-video(
-  [Un messaggio che sembra comprensibile, ma non lo è],
+  [Quando il codice non è condiviso],
   "How English Sounds to Non-English Speakers – Skwerl",
   "https://www.youtube.com/watch?v=Vt4Dfa4fOEY",
   "/assets/video/caso-01.jpg",

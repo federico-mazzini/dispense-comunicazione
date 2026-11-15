@@ -1,10 +1,10 @@
 #import "/styles/slides.typ": caso-video
 
 #caso-video(
-  [Il linguaggio del corpo comunica],
+  [Assioma 1],
   "Mr. Bean – Gli esami del signor Bean",
   "https://www.youtube.com/watch?v=cvPamL5G-G8",
-  none,
+  "/assets/video/caso-05.jpg",
   [Mr. Bean affronta un esame e cerca di osservare il compito del vicino. Attraverso sguardi, movimenti ed espressioni facciali comunica continuamente, pur pronunciando pochissime parole.],
   (
     [Quali messaggi riusciamo a comprendere senza ascoltare un dialogo?],

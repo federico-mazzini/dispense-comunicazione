@@ -9,9 +9,9 @@
 I ruoli di mittente e destinatario possono alternarsi.
 
 #grid(columns: (auto, 1fr, auto), align: horizon, gutter: 8pt,
-  [*Mittente*],
-  align(center)[#text(size: 18pt, fill: rosso)[Messaggio →]#linebreak()#text(size: 18pt, fill: rosso)[← Feedback]],
-  [*Destinatario*])
+  text(size: 24pt, weight: "bold")[Mittente],
+  align(center)[#text(size: 22pt, fill: rosso)[Messaggio~→]#linebreak()#text(size: 22pt, fill: rosso)[←~Feedback]],
+  text(size: 24pt, weight: "bold")[Destinatario])
 ][
 #esempio[
 Insegnante: «Domani portate il computer».

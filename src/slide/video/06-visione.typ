@@ -1,7 +1,7 @@
 #import "/styles/slides.typ": caso-video
 
 #caso-video(
-  [Le parole e la relazione],
+  [Assioma 2],
   "Il diavolo veste Prada – Il colloquio di Andy",
   "https://www.youtube.com/watch?v=--hdEhwCJck",
   "/assets/video/caso-06.jpg",

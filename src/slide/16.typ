@@ -1,8 +1,8 @@
 #import "/styles/slides.typ": *
 
-#slide([Assioma 1: non si può non comunicare])[
+#slide-assioma(1, [Non si può non comunicare])[
 #colonne[
-*Anche il silenzio e il comportamento possono comunicare qualcosa.*
+Anche il *silenzio* e il *comportamento* possono comunicare qualcosa.
 
 Un gesto, un'assenza, uno sguardo evitato possono essere interpretati dagli altri.
 ][

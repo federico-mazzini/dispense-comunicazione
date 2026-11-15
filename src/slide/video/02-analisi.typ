@@ -8,5 +8,5 @@
     [*Codifica:* la trasformazione delle loro intenzioni in un messaggio scritto.],
     [*Problema:* espressioni confuse e ambigue rendono difficile interpretare il messaggio.],
   ),
-  [utilizzare un codice condiviso non garantisce una codifica efficace.],
+  [Utilizzare un codice condiviso non garantisce una codifica efficace.],
 )

@@ -1,7 +1,7 @@
 #import "/styles/slides.typ": caso-video
 
 #caso-video(
-  [Dire una cosa e comunicarne un'altra],
+  [Assioma 4],
   "Friends – Ross dice \"I'm Fine\"",
   "https://www.youtube.com/watch?v=P7TnA_8379E",
   "/assets/video/caso-08.jpg",

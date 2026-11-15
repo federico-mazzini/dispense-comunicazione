@@ -2,13 +2,13 @@
 
 #caso-video(
   [Quando la trasmissione viene disturbata],
-  "A Conference Call in Real Life – Tripp & Tyler",
-  "https://www.youtube.com/watch?v=DYu_bGbZiiQ",
-  "/assets/video/caso-03.jpg",
-  [Uno sketch rappresenta i problemi tipici delle conferenze online come se si verificassero durante una riunione in presenza: audio che non funziona, connessioni interrotte, microfoni disattivati e incomprensioni.],
+  "BBC News – I bambini interrompono l’intervista",
+  "https://www.youtube.com/watch?v=Mh4f9AYRCZY",
+  "/assets/video/caso-03-bbc.jpg",
+  [Il professor Robert Kelly è intervistato in diretta dalla BBC, in collegamento da casa. I suoi figli entrano nella stanza e la madre cerca di accompagnarli fuori. Il professore prova a proseguire mentre la scena richiama l’attenzione del giornalista e del pubblico.],
   (
-    [Quali ostacoli impediscono ai partecipanti di comunicare correttamente?],
-    [Il problema riguarda il codice utilizzato oppure il canale di trasmissione?],
-    [Che cosa possono fare i partecipanti per ripristinare la comunicazione?],
+    [Quali rumori, movimenti e interruzioni interferiscono con lo scambio comunicativo?],
+    [Il collegamento continua a funzionare? Che cosa rende più difficile seguire il messaggio del professore?],
+    [Come reagisce il professore? Perché potrebbe evitare di scherzare in diretta? Tra amici reagirebbe diversamente?],
   ),
 )

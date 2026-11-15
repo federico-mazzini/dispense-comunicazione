@@ -8,7 +8,6 @@
 #include "slide/05.typ"
 #include "slide/06.typ"
 #include "slide/07.typ"
-#include "slide/08.typ"
 #include "slide/09.typ"
 #include "slide/10.typ"
 #include "slide/11.typ"
@@ -38,4 +37,5 @@
 #include "slide/video/08-analisi.typ"
 #include "slide/20.typ"
 #include "slide/video/09-visione.typ"
+#include "slide/video/10-visione.typ"
 #include "slide/video/09-analisi.typ"

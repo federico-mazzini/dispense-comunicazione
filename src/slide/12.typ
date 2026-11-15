@@ -2,10 +2,12 @@
 
 #slide([Il feedback])[
 #colonne[
-*Il feedback è la risposta del destinatario che torna verso il mittente.*
+Il *feedback* è la risposta del destinatario che torna verso il mittente.
 
 Può essere:
+
 - Verbale: una domanda, una risposta, un commento.
+
 - Non verbale: un sorriso, un cenno, un'espressione perplessa.
 ][
 #esempio[

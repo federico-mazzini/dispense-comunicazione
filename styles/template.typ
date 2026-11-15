@@ -12,7 +12,8 @@
   below: 12pt,
 )[
   #set par(justify: false)
-  #block(below: 8pt, sticky: true)[
+  #set text(size: 0.94em)
+  #block(below: 13pt, sticky: true)[
     #text(font: "Libertinus Serif", weight: "bold", fill: rosso)[#titolo]
   ]
   #body

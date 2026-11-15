@@ -1,7 +1,7 @@
 #import "/styles/slides.typ": *
 
 #slide([Come funziona la comunicazione?])[
-*Il modello lineare di Shannon e Weaver*
+Il *modello lineare* di Shannon e Weaver
 
 Il modello nasce negli studi sulle telecomunicazioni per descrivere la trasmissione dell'informazione.
 
