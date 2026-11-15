@@ -30,3 +30,10 @@ jobs:
           path: dist/dispense-comunicazione.pdf
           if-no-files-found: error
           retention-days: 30
+      - name: Carica la presentazione
+        uses: actions/upload-artifact@v7
+        with:
+          name: slide-comunicazione-pdf
+          path: dist/slide-comunicazione.pdf
+          if-no-files-found: error
+          retention-days: 30

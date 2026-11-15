@@ -1,0 +1,23 @@
+#import "/styles/slides.typ": presentazione
+#show: presentazione
+
+#include "slide/01.typ"
+#include "slide/02.typ"
+#include "slide/03.typ"
+#include "slide/04.typ"
+#include "slide/05.typ"
+#include "slide/06.typ"
+#include "slide/07.typ"
+#include "slide/08.typ"
+#include "slide/09.typ"
+#include "slide/10.typ"
+#include "slide/11.typ"
+#include "slide/12.typ"
+#include "slide/13.typ"
+#include "slide/14.typ"
+#include "slide/15.typ"
+#include "slide/16.typ"
+#include "slide/17.typ"
+#include "slide/18.typ"
+#include "slide/19.typ"
+#include "slide/20.typ"
