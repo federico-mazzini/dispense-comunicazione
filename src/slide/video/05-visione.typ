@@ -2,9 +2,9 @@
 
 #caso-video(
   [Il linguaggio del corpo comunica],
-  "Mr. Bean – The Exam",
-  "https://www.youtube.com/watch?v=9LhLjpsstPY",
-  "/assets/video/caso-05.jpg",
+  "Mr. Bean – Gli esami del signor Bean",
+  "https://www.youtube.com/watch?v=cvPamL5G-G8",
+  none,
   [Mr. Bean affronta un esame e cerca di osservare il compito del vicino. Attraverso sguardi, movimenti ed espressioni facciali comunica continuamente, pur pronunciando pochissime parole.],
   (
     [Quali messaggi riusciamo a comprendere senza ascoltare un dialogo?],

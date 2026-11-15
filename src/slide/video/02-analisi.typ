@@ -3,10 +3,10 @@
 #analisi-video(
   [Quando il messaggio è formulato male],
   (
-    [Gli interlocutori utilizzano un codice linguistico condiviso.],
-    [Alcuni messaggi sono ambigui e contengono richieste contraddittorie o tecnicamente impossibili.],
-    [I partecipanti attribuiscono significati differenti ai concetti tecnici utilizzati.],
-    [La comunicazione non funziona perché non esistono conoscenze e interpretazioni sufficientemente condivise.],
+    [*Mittente:* i due personaggi che preparano la lettera.],
+    [*Codice:* lingua italiana scritta.],
+    [*Codifica:* la trasformazione delle loro intenzioni in un messaggio scritto.],
+    [*Problema:* espressioni confuse e ambigue rendono difficile interpretare il messaggio.],
   ),
-  [parlare la stessa lingua non garantisce di comprendere lo stesso significato.],
+  [utilizzare un codice condiviso non garantisce una codifica efficace.],
 )

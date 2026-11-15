@@ -3,10 +3,10 @@
 #analisi-video(
   [Quando il feedback non viene ascoltato],
   (
-    [La comunicazione avviene in entrambe le direzioni.],
-    [I due interlocutori hanno aspettative differenti rispetto alla conversazione.],
-    [Il feedback viene ricevuto, ma non sempre interpretato o accolto nel modo desiderato.],
-    [La comunicazione richiede anche attenzione al significato che l'altro attribuisce allo scambio.],
+    [Bing Bong comunica il proprio disagio attraverso parole, espressioni e comportamento.],
+    [Gioia cerca di risolvere il problema senza soffermarsi sufficientemente sullo stato d'animo dell'altro.],
+    [Tristezza ascolta, riconosce il disagio e risponde in modo coerente.],
+    [Il feedback permette di comprendere meglio le esigenze dell'interlocutore e adattare la comunicazione.],
   ),
-  [ricevere un feedback non significa necessariamente comprenderlo o utilizzarlo efficacemente.],
+  [ricevere un feedback non basta; bisogna interpretarlo e tenerne conto.],
 )

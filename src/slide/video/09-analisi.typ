@@ -3,10 +3,10 @@
 #analisi-video(
   [Ruoli e gerarchie nella comunicazione],
   (
-    [Le relazioni simmetriche si sviluppano tra interlocutori che interagiscono sullo stesso piano.],
-    [Le relazioni complementari si basano su ruoli e responsabilità differenti.],
-    [La scena mostra una relazione complementare, caratterizzata da una marcata differenza di autorità.],
-    [La complementarità non implica necessariamente un rapporto negativo: descrive una differenza di ruolo.],
+    [La scena rappresenta una *relazione complementare*.],
+    [Miranda ricopre una posizione di autorità rispetto ad Andy.],
+    [I ruoli e la gerarchia influenzano le modalità dello scambio comunicativo.],
+    [La complementarità non indica necessariamente un rapporto negativo, ma una differenza di ruolo.],
   ),
-  [il tipo di relazione influenza il modo in cui le persone comunicano e interpretano i messaggi.],
+  [le relazioni comunicative possono essere simmetriche o complementari a seconda dei ruoli ricoperti dagli interlocutori.],
 )

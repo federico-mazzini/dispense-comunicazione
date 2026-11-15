@@ -11,12 +11,12 @@
   },
   {
     "caso": 2,
-    "video": "The Expert – Short Comedy Sketch",
-    "url": "https://www.youtube.com/watch?v=BKorP55Aqvg",
-    "miniatura": "https://img.youtube.com/vi/BKorP55Aqvg/maxresdefault.jpg",
+    "video": "Totò, Peppino e la... malafemmina – La lettera",
+    "url": "https://www.youtube.com/watch?v=ubKIE2ViD2M",
+    "miniatura": "https://img.youtube.com/vi/ubKIE2ViD2M/hqdefault.jpg",
     "asset": "assets/video/caso-02.jpg",
-    "titolo_youtube": "The Expert (Short Comedy Sketch)",
-    "autore": "Lauris Beinerts",
+    "titolo_youtube": "Totò, Peppino e la malafemmina - La lettera",
+    "autore": "MrRoby51",
     "metadati_verificati": true
   },
   {
@@ -31,23 +31,24 @@
   },
   {
     "caso": 4,
-    "video": "It's Not About the Nail – Jason Headley",
-    "url": "https://www.youtube.com/watch?v=-4EDhdAHrOg",
-    "miniatura": "https://img.youtube.com/vi/-4EDhdAHrOg/maxresdefault.jpg",
+    "video": "Inside Out – Gioia, Tristezza e Bing Bong (01:06–02:11)",
+    "url": "https://www.youtube.com/watch?v=t-asXorVstM&t=66",
+    "miniatura": "https://img.youtube.com/vi/t-asXorVstM/maxresdefault.jpg",
     "asset": "assets/video/caso-04.jpg",
-    "titolo_youtube": "It's Not About The Nail",
-    "autore": "Jason Headley",
+    "titolo_youtube": "ascolto empatico",
+    "autore": "Lugo Pampa",
     "metadati_verificati": true
   },
   {
     "caso": 5,
-    "video": "Mr. Bean – The Exam",
-    "url": "https://www.youtube.com/watch?v=9LhLjpsstPY",
-    "miniatura": "https://img.youtube.com/vi/9LhLjpsstPY/maxresdefault.jpg",
-    "asset": "assets/video/caso-05.jpg",
-    "titolo_youtube": "The Exam | Mr. Bean Official",
-    "autore": "Mr Bean",
-    "metadati_verificati": true
+    "video": "Mr. Bean – Gli esami del signor Bean",
+    "url": "https://www.youtube.com/watch?v=cvPamL5G-G8",
+    "miniatura": null,
+    "asset": null,
+    "titolo_youtube": null,
+    "autore": null,
+    "metadati_verificati": false,
+    "nota_verifica": "Miniatura non disponibile (HTTP 404); richiesta oEmbed rifiutata (HTTP 403). Collegamento scelto conservato, da verificare manualmente."
   },
   {
     "caso": 6,
@@ -61,12 +62,12 @@
   },
   {
     "caso": 7,
-    "video": "The Break-Up – La discussione sui piatti",
-    "url": "https://www.youtube.com/watch?v=jxO2qdFkQCQ",
-    "miniatura": "https://img.youtube.com/vi/jxO2qdFkQCQ/maxresdefault.jpg",
+    "video": "Ti odio, ti lascio, ti... – La discussione",
+    "url": "https://www.youtube.com/watch?v=JxesBShLUqo",
+    "miniatura": "https://img.youtube.com/vi/JxesBShLUqo/maxresdefault.jpg",
     "asset": "assets/video/caso-07.jpg",
-    "titolo_youtube": "The Break-Up (2006) | The Dishes Fight Scene",
-    "autore": "Binge Society",
+    "titolo_youtube": "J.Aniston NON ne vuole più sapere di vivere con un MAIALE | Ti odio, ti lascio, ti...| Clip Italiano",
+    "autore": "Boxoffice | Le Migliori Scene dei Film in Italiano",
     "metadati_verificati": true
   },
   {
@@ -81,12 +82,12 @@
   },
   {
     "caso": 9,
-    "video": "Il diavolo veste Prada – Il maglione ceruleo",
-    "url": "https://www.youtube.com/watch?v=-rDTRuCOs9g",
-    "miniatura": "https://img.youtube.com/vi/-rDTRuCOs9g/hqdefault.jpg",
+    "video": "Il diavolo veste Prada – Questa \"roba\" (maglione ceruleo)",
+    "url": "https://www.youtube.com/watch?v=3lu_2xIaDng",
+    "miniatura": "https://img.youtube.com/vi/3lu_2xIaDng/maxresdefault.jpg",
     "asset": "assets/video/caso-09.jpg",
-    "titolo_youtube": "Miranda Priestly Educates Andy About Her Cerulean Sweater | The Devil Wears Prada | HBO",
-    "autore": "HBO",
+    "titolo_youtube": "IL DIAVOLO VESTE PRADA | Questa \"roba\"",
+    "autore": "MovieDigger",
     "metadati_verificati": true
   }
 ]

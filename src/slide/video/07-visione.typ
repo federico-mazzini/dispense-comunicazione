@@ -2,13 +2,13 @@
 
 #caso-video(
   [Chi ha iniziato il litigio?],
-  "The Break-Up – La discussione sui piatti",
-  "https://www.youtube.com/watch?v=jxO2qdFkQCQ",
+  "Ti odio, ti lascio, ti... – La discussione",
+  "https://www.youtube.com/watch?v=JxesBShLUqo",
   "/assets/video/caso-07.jpg",
-  [Una coppia discute delle responsabilità domestiche. Il confronto si trasforma in un litigio nel quale i personaggi attribuiscono significati diversi ai comportamenti dell'altro.],
+  [Una coppia discute delle responsabilità domestiche. Durante il litigio, i due personaggi interpretano diversamente i comportamenti dell'altro e reagiscono alimentando il conflitto.],
   (
-    [Qual è il motivo iniziale della discussione?],
-    [Come interpreta ciascun personaggio le parole e i comportamenti dell'altro?],
-    [In che modo le reazioni reciproche contribuiscono ad alimentare il conflitto?],
+    [Da che cosa nasce apparentemente la discussione?],
+    [Come interpreta ciascun personaggio il comportamento dell'altro?],
+    [In che modo le reazioni reciproche contribuiscono ad alimentare il litigio?],
   ),
 )

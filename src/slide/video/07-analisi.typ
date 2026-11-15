@@ -3,11 +3,11 @@
 #analisi-video(
   [Chi ha iniziato il litigio?],
   (
-    [Ogni interlocutore interpreta la sequenza degli scambi dal proprio punto di vista.],
-    [Un comportamento può essere considerato la causa del conflitto da una persona e una reazione dall'altra.],
-    [Le risposte reciproche possono alimentare una sequenza circolare.],
-    [Questa diversa interpretazione degli scambi prende il nome di punteggiatura della comunicazione.],
+    [Ogni persona interpreta la sequenza degli scambi dal proprio punto di vista.],
+    [Ciascun interlocutore può considerare il proprio comportamento una reazione a quello dell'altro.],
+    [Le reazioni reciproche contribuiscono ad alimentare il conflitto.],
+    [Questo modo di interpretare la sequenza degli scambi si chiama *punteggiatura della comunicazione*.],
   ),
-  [nelle relazioni non sempre esiste un punto di partenza condiviso; le persone possono interpretare diversamente le cause dei comportamenti reciproci.],
+  [le persone possono interpretare diversamente l'origine e le cause di uno stesso conflitto.],
   ciclo: true,
 )

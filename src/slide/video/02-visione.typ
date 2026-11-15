@@ -2,13 +2,13 @@
 
 #caso-video(
   [Quando il messaggio è formulato male],
-  "The Expert – Short Comedy Sketch",
-  "https://www.youtube.com/watch?v=BKorP55Aqvg",
+  "Totò, Peppino e la... malafemmina – La lettera",
+  "https://www.youtube.com/watch?v=ubKIE2ViD2M",
   "/assets/video/caso-02.jpg",
-  [Durante una riunione aziendale vengono formulate richieste tecniche contraddittorie a un esperto. Il professionista prova a spiegare perché alcune richieste siano impossibili da realizzare, ma gli interlocutori continuano a non comprenderlo.],
+  [Totò e Peppino devono scrivere una lettera per comunicare una richiesta importante. Durante la dettatura costruiscono un testo confuso, con errori, espressioni ambigue e continui fraintendimenti.],
   (
-    [I partecipanti utilizzano la stessa lingua? Perché non riescono comunque a capirsi?],
-    [Le richieste sono formulate in modo chiaro e coerente?],
-    [Quali elementi della comunicazione rendono difficile raggiungere una comprensione comune?],
+    [Qual è il messaggio che i personaggi vogliono comunicare?],
+    [In che modo trasformano ciò che vogliono dire in un messaggio scritto?],
+    [Quali difficoltà potrebbe incontrare il destinatario nel comprendere la lettera?],
   ),
 )

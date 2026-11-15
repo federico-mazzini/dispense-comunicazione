@@ -2,13 +2,13 @@
 
 #caso-video(
   [Quando il feedback non viene ascoltato],
-  "It's Not About the Nail – Jason Headley",
-  "https://www.youtube.com/watch?v=-4EDhdAHrOg",
+  "Inside Out – Gioia, Tristezza e Bing Bong (01:06–02:11)",
+  "https://www.youtube.com/watch?v=t-asXorVstM&t=66",
   "/assets/video/caso-04.jpg",
-  [Una donna cerca di raccontare un problema al proprio compagno. Lui continua a proporre soluzioni pratiche, mentre lei cerca soprattutto comprensione e ascolto.],
+  [Bing Bong è triste per la perdita di qualcosa a cui teneva molto. Gioia cerca di tirargli su il morale attraverso incoraggiamenti e distrazioni, mentre Tristezza sceglie di ascoltarlo.],
   (
-    [Che cosa sta cercando di comunicare ciascun personaggio?],
-    [Quali feedback vengono inviati durante la conversazione?],
-    [Perché i due personaggi non riescono a raggiungere una comprensione reciproca?],
+    [Che cosa comunica Bing Bong attraverso le parole e il comportamento?],
+    [Come reagiscono Gioia e Tristezza ai suoi segnali?],
+    [Perché il comportamento di Tristezza produce un risultato diverso?],
   ),
 )

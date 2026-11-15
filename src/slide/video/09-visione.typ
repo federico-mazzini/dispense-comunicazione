@@ -2,13 +2,13 @@
 
 #caso-video(
   [Ruoli e gerarchie nella comunicazione],
-  "Il diavolo veste Prada – Il maglione ceruleo",
-  "https://www.youtube.com/watch?v=-rDTRuCOs9g",
+  "Il diavolo veste Prada – Questa \"roba\" (maglione ceruleo)",
+  "https://www.youtube.com/watch?v=3lu_2xIaDng",
   "/assets/video/caso-09.jpg",
-  [Miranda Priestly spiega ad Andy il significato delle scelte nel mondo della moda. Durante la scena emergono chiaramente la differenza di competenze, l'autorità e i ruoli ricoperti all'interno dell'organizzazione.],
+  [Durante una riunione di lavoro, Andy commenta con leggerezza alcune scelte di moda. Miranda Priestly interviene per spiegarle il significato di quelle scelte, facendo emergere la differenza di autorità, competenze e responsabilità tra le due persone.],
   (
     [I due personaggi comunicano sullo stesso piano?],
-    [Quali comportamenti evidenziano la differenza di ruolo tra Miranda e Andy?],
-    [Come cambierebbe la conversazione se avvenisse tra due colleghi con le stesse responsabilità?],
+    [Quali elementi della conversazione mostrano la differenza di ruolo?],
+    [Come cambierebbe il dialogo tra due colleghi con le stesse responsabilità?],
   ),
 )
