@@ -6,7 +6,8 @@
 - Modifica i tre capitoli in `src/capitoli/`, che contengono la teoria e i 18 esempi. Non inventare contenuti, casi o fonti mancanti.
 - Usa gli SVG in `assets/svg/` con percorsi dalla radice, per esempio `/assets/svg/modello.svg`.
 - Aggiungi ogni nuovo capitolo a `src/main.typ` con `#include "capitoli/nome.typ"`. Mantieni gli stili e i componenti nel template.
-- Le 20 slide sono in `src/slide/`, incluse da `src/slide-comunicazione.typ`. Il template 16:9 è `styles/slides.typ`, che importa i colori del template delle dispense.
+- Le 20 slide teoriche sono in `src/slide/`; i 9 casi video (18 slide) sono in `src/slide/video/`. L’ordine delle 38 slide è definito in `src/slide-comunicazione.typ`. Il template 16:9 è `styles/slides.typ`, che importa i colori delle dispense.
+- I casi 1–4 seguono la slide teorica 14; i casi 5–9 seguono i rispettivi assiomi. Conserva i file delle 20 slide teoriche. Le miniature locali e i riferimenti YouTube sono in `assets/video/`, con provenienza e metadati in `fonti.json`. La build non richiede accesso a YouTube.
 - Prima del commit, compila con Typst 0.15.1 e controlla visivamente tutte le pagine. Non versionare `dist/`.
 
 ```bash

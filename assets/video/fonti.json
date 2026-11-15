@@ -1,0 +1,92 @@
+[
+  {
+    "caso": 1,
+    "video": "How English Sounds to Non-English Speakers – Skwerl",
+    "url": "https://www.youtube.com/watch?v=Vt4Dfa4fOEY",
+    "miniatura": "https://img.youtube.com/vi/Vt4Dfa4fOEY/maxresdefault.jpg",
+    "asset": "assets/video/caso-01.jpg",
+    "titolo_youtube": "How English sounds to non-English speakers",
+    "autore": "Brian and Karl",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 2,
+    "video": "The Expert – Short Comedy Sketch",
+    "url": "https://www.youtube.com/watch?v=BKorP55Aqvg",
+    "miniatura": "https://img.youtube.com/vi/BKorP55Aqvg/maxresdefault.jpg",
+    "asset": "assets/video/caso-02.jpg",
+    "titolo_youtube": "The Expert (Short Comedy Sketch)",
+    "autore": "Lauris Beinerts",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 3,
+    "video": "A Conference Call in Real Life – Tripp & Tyler",
+    "url": "https://www.youtube.com/watch?v=DYu_bGbZiiQ",
+    "miniatura": "https://img.youtube.com/vi/DYu_bGbZiiQ/maxresdefault.jpg",
+    "asset": "assets/video/caso-03.jpg",
+    "titolo_youtube": "A Conference Call in Real Life",
+    "autore": "Best,",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 4,
+    "video": "It's Not About the Nail – Jason Headley",
+    "url": "https://www.youtube.com/watch?v=-4EDhdAHrOg",
+    "miniatura": "https://img.youtube.com/vi/-4EDhdAHrOg/maxresdefault.jpg",
+    "asset": "assets/video/caso-04.jpg",
+    "titolo_youtube": "It's Not About The Nail",
+    "autore": "Jason Headley",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 5,
+    "video": "Mr. Bean – The Exam",
+    "url": "https://www.youtube.com/watch?v=9LhLjpsstPY",
+    "miniatura": "https://img.youtube.com/vi/9LhLjpsstPY/maxresdefault.jpg",
+    "asset": "assets/video/caso-05.jpg",
+    "titolo_youtube": "The Exam | Mr. Bean Official",
+    "autore": "Mr Bean",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 6,
+    "video": "Il diavolo veste Prada – Il colloquio di Andy",
+    "url": "https://www.youtube.com/watch?v=--hdEhwCJck",
+    "miniatura": "https://img.youtube.com/vi/--hdEhwCJck/maxresdefault.jpg",
+    "asset": "assets/video/caso-06.jpg",
+    "titolo_youtube": "IL DIAVOLO VESTE PRADA | Il colloquio di Andy",
+    "autore": "MovieDigger",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 7,
+    "video": "The Break-Up – La discussione sui piatti",
+    "url": "https://www.youtube.com/watch?v=jxO2qdFkQCQ",
+    "miniatura": "https://img.youtube.com/vi/jxO2qdFkQCQ/maxresdefault.jpg",
+    "asset": "assets/video/caso-07.jpg",
+    "titolo_youtube": "The Break-Up (2006) | The Dishes Fight Scene",
+    "autore": "Binge Society",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 8,
+    "video": "Friends – Ross dice \"I'm Fine\"",
+    "url": "https://www.youtube.com/watch?v=P7TnA_8379E",
+    "miniatura": "https://img.youtube.com/vi/P7TnA_8379E/maxresdefault.jpg",
+    "asset": "assets/video/caso-08.jpg",
+    "titolo_youtube": "Ross Is “Fine” When He Finds Out About Rachel & Joey | Friends",
+    "autore": "Friends",
+    "metadati_verificati": true
+  },
+  {
+    "caso": 9,
+    "video": "Il diavolo veste Prada – Il maglione ceruleo",
+    "url": "https://www.youtube.com/watch?v=-rDTRuCOs9g",
+    "miniatura": "https://img.youtube.com/vi/-rDTRuCOs9g/hqdefault.jpg",
+    "asset": "assets/video/caso-09.jpg",
+    "titolo_youtube": "Miranda Priestly Educates Andy About Her Cerulean Sweater | The Devil Wears Prada | HBO",
+    "autore": "HBO",
+    "metadati_verificati": true
+  }
+]
