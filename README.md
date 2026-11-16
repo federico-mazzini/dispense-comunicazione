@@ -1,5 +1,9 @@
 # Elementi di comunicazione e comunicazione aziendale
 
+[**Apri le dispense**](https://federico-mazzini.github.io/dispense-comunicazione/dispense-comunicazione.pdf) · [**Apri le slide**](https://federico-mazzini.github.io/dispense-comunicazione/slide-comunicazione.pdf)
+
+Ultima versione pubblicata per la classe.
+
 ## Istruzioni operative per l’agente
 
 - Compila sempre `src/main.typ`; i capitoli sono in `src/capitoli/` e il template comune in `styles/template.typ`.
