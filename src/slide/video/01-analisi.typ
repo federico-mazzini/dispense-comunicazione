@@ -1,12 +1,12 @@
 #import "/styles/slides.typ": analisi-video
 
 #analisi-video(
-  [Quando il codice non è condiviso],
+  [Assioma 2],
   (
-    [Il *canale* funziona: possiamo ascoltare la conversazione.],
-    [Il *codice linguistico* non è condiviso con lo spettatore, che non riesce a decodificare le parole.],
-    [Gesti, espressioni, tono della voce e *contesto* permettono comunque di intuire alcune informazioni.],
-    [Non comprendere le parole non significa necessariamente non cogliere alcun significato.],
+    [Le informazioni espresse attraverso le parole costituiscono il *contenuto*. In questa scena lo spettatore fatica a ricostruirlo.],
+    [L’aspetto di *relazione* riguarda il modo in cui gli interlocutori definiscono il loro rapporto e come deve essere inteso il messaggio.],
+    [Il *tono della voce*, gli sguardi, i gesti e le espressioni offrono indizi sul rapporto tra i personaggi.],
+    [Questi segnali orientano la nostra interpretazione. Le ipotesi sul rapporto possono essere diverse e vanno motivate con elementi della scena.],
   ),
-  [La comunicazione richiede codici e conoscenze almeno in parte condivisi.],
+  [Ogni comunicazione ha un aspetto di contenuto e un aspetto di relazione, che orienta il modo in cui interpretiamo il messaggio.],
 )

@@ -3,10 +3,10 @@
 #analisi-video(
   [Assioma 1],
   (
-    [Il *comportamento* di una persona può essere interpretato dagli altri come un messaggio.],
-    [Gesti, sguardi, espressioni e *silenzi* possono comunicare senza bisogno di parole.],
-    [La comunicazione non richiede sempre un'*intenzione esplicita*.],
-    [Il destinatario può interpretare un comportamento anche in modo differente dalle intenzioni di chi lo compie.],
+    [Il *silenzio* di Will può essere interpretato da Sean come chiusura, resistenza o sfida.],
+    [Il silenzio di Sean può assumere il significato di *attesa e disponibilità* a lasciare a Will l’iniziativa.],
+    [Sguardi, posture e reazioni contribuiscono a definire la relazione anche quando i due personaggi tacciono.],
+    [Il significato del silenzio dipende dal *contesto*. Le nostre interpretazioni sono ipotesi da motivare attraverso la scena.],
   ),
-  [Nelle relazioni umane anche il comportamento e il silenzio possono avere valore comunicativo.],
+  [Durante un’interazione, il silenzio è un comportamento che l’altro può interpretare e a cui può reagire.],
 )

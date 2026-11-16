@@ -41,15 +41,14 @@
   },
   {
     "caso": 5,
-    "video": "Mr. Bean – Gli esami del signor Bean",
-    "url": "https://www.youtube.com/watch?v=cvPamL5G-G8",
-    "miniatura": "https://i.ytimg.com/vi/9LhLjpsstPY/hqdefault.jpg",
-    "asset": "assets/video/caso-05.jpg",
-    "titolo_youtube": null,
-    "autore": null,
-    "metadati_verificati": false,
-    "nota_verifica": "Miniatura della scena dell’esame tratta dal canale ufficiale Mr Bean. Il collegamento originale della slide è conservato.",
-    "fonte_miniatura": "https://www.youtube.com/watch?v=9LhLjpsstPY"
+    "video": "Will Hunting – La seduta silenziosa",
+    "url": "https://www.youtube.com/watch?v=FP5J4q7k2bk",
+    "miniatura": "https://i.ytimg.com/vi/FP5J4q7k2bk/hqdefault.jpg",
+    "asset": "assets/video/caso-05-will-hunting.jpg",
+    "titolo_youtube": "Longest therapy session ever!",
+    "autore": "William Christopher Dean",
+    "metadati_verificati": true,
+    "nota_verifica": "Riproduzione verificata nel browser il 16 novembre 2026. Clip di 59 secondi della seduta silenziosa di Will e Sean."
   },
   {
     "caso": 6,

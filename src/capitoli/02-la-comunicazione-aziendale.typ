@@ -222,18 +222,3 @@ deve offrirlo non è stato informato. La pubblicità e l’organizzazione
 interna non sono coordinate: i clienti riceveranno una promessa che
 l’azienda non è pronta a mantenere.
 ]
-
-Non è sempre facile stabilire quali attività spettino a un ufficio e
-quali a un altro. Anche per questo la gestione della comunicazione può
-generare contrasti tra le diverse funzioni, come osserva Corvi \(2007).
-Se le attività sono coordinate da un’unica struttura che risponde
-direttamente all’#strong[amministratore delegato] \(AD), il responsabile
-della comunicazione può avere un ruolo strategico e partecipare alle
-scelte di vertice.
-
-Non esiste però una soluzione identica per tutte le aziende. Ogni
-impresa deve organizzare la comunicazione in base a strategia,
-obiettivi, dimensioni, settore e contesto. Le quattro aree restano una
-#strong[mappa utile] per orientarsi, anche se nella realtà i confini
-possono sovrapporsi.
-

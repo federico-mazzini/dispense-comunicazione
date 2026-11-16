@@ -14,5 +14,5 @@ Il *rumore* è qualsiasi elemento che disturba la comunicazione.
 - Le conversazioni in classe impediscono di ascoltare una spiegazione.
 ]
 
-Non sempre il rumore interrompe completamente la comunicazione: può anche rendere incompleto il messaggio.
+Il rumore non interrompe completamente la comunicazione, rende incompleto il messaggio.
 ]

@@ -9,6 +9,6 @@
     v(26pt),
     text(size: 46pt, weight: "bold")[Come funziona la comunicazione?],
     v(16pt),
-    text(size: 28pt)[Dalle conversazioni quotidiane al modello del processo comunicativo.],
+    text(size: 28pt)[Analisi degli elementi del processo comunicativo e gli assiomi della scuola di Palo Alto.],
   )
 ]

@@ -2,13 +2,13 @@
 
 #caso-video(
   [Assioma 1],
-  "Mr. Bean – Gli esami del signor Bean",
-  "https://www.youtube.com/watch?v=cvPamL5G-G8",
-  "/assets/video/caso-05.jpg",
-  [Mr. Bean affronta un esame e cerca di osservare il compito del vicino. Attraverso sguardi, movimenti ed espressioni facciali comunica continuamente, pur pronunciando pochissime parole.],
+  "Will Hunting – La seduta silenziosa",
+  "https://www.youtube.com/watch?v=FP5J4q7k2bk",
+  "/assets/video/caso-05-will-hunting.jpg",
+  [Durante una seduta, Will resta in silenzio davanti allo psicologo Sean. Anche Sean tace e aspetta. Osserviamo gli sguardi, le posture e l’attesa, cercando di capire che cosa accade nella loro relazione.],
   (
-    [Quali messaggi riusciamo a comprendere senza ascoltare un dialogo?],
-    [Quali comportamenti permettono di intuire le intenzioni di Mr. Bean?],
-    [Gli altri personaggi interpretano necessariamente i suoi comportamenti nello stesso modo?],
+    [Anche se Will non parla, che cosa può comunicare a Sean attraverso il suo comportamento?],
+    [I silenzi di Will e Sean hanno lo stesso significato? Quali elementi della scena sostengono la vostra interpretazione?],
+    [Restare in silenzio permette a Will di sottrarsi alla comunicazione? Come si collega la scena al primo assioma?],
   ),
 )
