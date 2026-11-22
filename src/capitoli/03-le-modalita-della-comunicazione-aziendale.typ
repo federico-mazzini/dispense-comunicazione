@@ -59,23 +59,6 @@ La scelta dipende da ciò che il destinatario conosce già e da ciò che
 l’azienda vuole fargli capire. Anche una sola immagine può bastare.
 La forma più efficace è quella più adatta all’obiettivo.
 
-== Diretta e mediata
-La #strong[comunicazione diretta] avviene quando le persone sono a
-contatto senza uno strumento che si interponga tra loro, per esempio
-durante un colloquio faccia a faccia, una riunione in presenza o una
-convention. Permette di cogliere facilmente gesti, espressioni e altri
-segnali non verbali. Può fornire informazioni ricche, anche se richiede
-spesso più tempo e organizzazione.
-
-La #strong[comunicazione mediata] avviene quando tra le persone c’è uno
-strumento, per esempio il telefono o una piattaforma per videoriunioni.
-
-#esempio[
-Parlare con il rappresentante di classe durante l’intervallo è una
-comunicazione diretta; chiamarlo al telefono è una comunicazione
-mediata.
-]
-
 == Unidirezionale e bidirezionale
 La comunicazione è #strong[unidirezionale] quando il messaggio va dal
 mittente ai destinatari senza prevedere uno scambio immediato di
@@ -136,7 +119,7 @@ che gli studenti leggeranno nel pomeriggio è asincrono.
 ]
 
 Queste caratteristiche #strong[possono combinarsi]. Una videoriunione
-aziendale, per esempio, è mediata, bidirezionale, spesso many-to-many e
-sincrona. Una newsletter inviata ai clienti è mediata, prevalentemente
+aziendale, per esempio, è bidirezionale, spesso many-to-many e
+sincrona. Una newsletter inviata ai clienti è prevalentemente
 unidirezionale, one-to-many e asincrona. Progettare bene la
 comunicazione significa scegliere la combinazione più adatta allo scopo.
