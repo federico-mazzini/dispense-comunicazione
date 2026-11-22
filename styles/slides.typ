@@ -28,11 +28,15 @@
   }
 }
 
-#let slide(titolo, body, centra: false) = page[
+#let slide(titolo, body, centra: false, sottotitolo: none) = page[
   #stack(dir: ttb, spacing: 0pt,
     rect(width: 40pt, height: 3pt, fill: rosso, stroke: none),
     v(10pt),
     text(size: 35pt, weight: "bold", fill: rosso, titolo),
+    if sottotitolo != none {
+      v(18pt)
+      text(size: 23pt, style: "italic", sottotitolo)
+    },
     if centra { v(1fr) } else { v(30pt) },
     area-slide(body),
     if centra { v(1fr) },
