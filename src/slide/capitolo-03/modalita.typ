@@ -83,35 +83,68 @@
   )
 ]
 
+#let persona(x, y) = place(top + left, dx: x * 1pt, dy: y * 1pt)[
+  #block(width: 16pt, height: 16pt)[
+    #place(top + left, circle(radius: 8pt, fill: rosso.lighten(94%), stroke: 0.8pt + rosso))
+    #place(top + left, dx: 5.5pt, dy: 3pt, circle(radius: 2pt, fill: rosso, stroke: none))
+    #place(top + left, dx: 3pt, dy: 8pt, ellipse(width: 9pt, height: 5pt, fill: rosso, stroke: none))
+  ]
+]
+#let collegamento(a, b, freccia: false) = {
+  let dx = b.at(0) - a.at(0)
+  let dy = b.at(1) - a.at(1)
+  let lunghezza = calc.sqrt(dx * dx + dy * dy)
+  let ux = dx / lunghezza
+  let uy = dy / lunghezza
+  place(top + left, line(start: (a.at(0) * 1pt, a.at(1) * 1pt), end: (b.at(0) * 1pt, b.at(1) * 1pt), stroke: 0.8pt + rosso))
+  if freccia {
+    place(top + left, polygon(
+      (b.at(0) * 1pt, b.at(1) * 1pt),
+      ((b.at(0) - 4 * ux + 2 * uy) * 1pt, (b.at(1) - 4 * uy - 2 * ux) * 1pt),
+      ((b.at(0) - 4 * ux - 2 * uy) * 1pt, (b.at(1) - 4 * uy + 2 * ux) * 1pt),
+      fill: rosso, stroke: none,
+    ))
+  }
+}
+#let schema(modello) = align(center, block(width: 190pt, height: 60pt)[
+  #if modello == 1 {
+    collegamento((53, 30), (137, 30), freccia: true)
+    collegamento((137, 30), (53, 30), freccia: true)
+    persona(37, 22)
+    persona(137, 22)
+  } else if modello == 2 {
+    for y in (8, 30, 52) {
+      collegamento((53, 30), (137, y), freccia: true)
+    }
+    persona(37, 22)
+    for y in (0, 22, 44) { persona(137, y) }
+  } else {
+    let nodi = ((95, 8), (150, 24), (128, 52), (62, 52), (40, 24))
+    for (a, b) in ((0, 1), (1, 2), (2, 3), (3, 4), (4, 0), (0, 2), (1, 3)) {
+      collegamento(nodi.at(a), nodi.at(b))
+    }
+    for (x, y) in nodi { persona(x - 8, y - 8) }
+  }
+])
+
 #pagina([One-to-one, one-to-many e many-to-many], sottotitolo: [Come sono organizzati i partecipanti alla comunicazione?])[
   #stack(dir: ttb, spacing: 10pt,
     grid(columns: (1fr, 1fr, 1fr), gutter: 25pt,
       stack(dir: ttb, spacing: 10pt,
         voce([One-to-one], [*Uno a uno*]),
-        align(center, block(height: 60pt)[#align(horizon)[#text(size: 32pt, fill: rosso)[A ↔ B]]]),
-        [Due interlocutori comunicano tra loro.],
+        schema(1),
+        pad(bottom: 1em, [Due interlocutori comunicano tra loro.]),
         esempio[Un responsabile e un collaboratore durante un colloquio individuale.],
       ),
       stack(dir: ttb, spacing: 10pt,
         voce([One-to-many], [*Uno a molti*]),
-        align(center, block(height: 60pt)[
-          #grid(columns: (auto, auto, auto), column-gutter: 14pt, align: horizon,
-            text(size: 32pt, fill: rosso)[A],
-            text(size: 32pt, fill: rosso)[→],
-            text(size: 23pt)[B \ C \ D],
-          )
-        ]),
+        schema(2),
         [Un mittente comunica un messaggio a numerosi destinatari.],
         esempio[Un’azienda invia una newsletter a tutti i propri clienti oppure trasmette una pubblicità televisiva.],
       ),
       stack(dir: ttb, spacing: 10pt,
         voce([Many-to-many], [*Molti a molti*]),
-        align(center, block(height: 60pt)[
-          #set text(size: 20pt, fill: rosso)
-          #grid(columns: (auto, auto, auto), gutter: 3pt, align: center,
-            [A], [↔], [B], [↕], [ ], [↕], [C], [↔], [D],
-          )
-        ]),
+        schema(3),
         [Numerose persone possono creare, ricevere e scambiarsi messaggi e contenuti.],
         esempio[Gli utenti partecipano a una discussione online, pubblicando contenuti e rispondendosi reciprocamente.],
       ),

@@ -8,3 +8,4 @@
 )
 
 #include "slide/capitolo-03/modalita.typ"
+#include "slide/capitolo-03/casi.typ"
