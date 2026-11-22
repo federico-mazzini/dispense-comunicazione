@@ -1,5 +1,7 @@
 #import "/styles/template.typ": esempio
 
+#set par(leading: 0.55em)
+
 = Le modalità della comunicazione aziendale
 Non tutte le comunicazioni avvengono nello stesso modo. Un’impresa deve
 scegliere #strong[come comunicare] in base agli obiettivi e alle persone

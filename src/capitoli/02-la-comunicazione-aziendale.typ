@@ -64,29 +64,6 @@ Oggi, grazie alle piattaforme digitali, i contenuti circolano anche
 condividono. Le aziende devono quindi ascoltare ciò che viene detto su
 di loro e dialogare con il pubblico.
 
-== Mind, body e soul: tre aspetti della comunicazione
-Possiamo descrivere la comunicazione d’impresa usando tre parole
-inglesi, come se l’azienda fosse una persona.
-
-- #strong[Mind \(mente):] è la parte #strong[strategica]. Stabilisce
-  gli obiettivi della comunicazione e pianifica le azioni necessarie per
-  raggiungerli.
-
-- #strong[Body \(corpo):] è la parte #strong[operativa]. Riguarda ciò
-  che si realizza concretamente: testi, immagini, identità visiva,
-  presentazioni, eventi, scelta dei canali e gestione delle relazioni.
-
-- #strong[Soul \(anima):] sono i #strong[valori], l’etica e la cultura
-  dell’azienda. Possono distinguere imprese che vendono prodotti simili
-  o usano strategie simili.
-
-#esempio[
-Un marchio di abbigliamento decide di comunicare la propria attenzione
-all’ambiente \(mind), realizza un sito e una campagna su questo tema
-\(body) e dimostra nelle scelte aziendali di rispettare davvero quei
-valori \(soul).
-]
-
 == Il modello PESO
 Per scegliere dove far circolare un messaggio, un’impresa può utilizzare
 il modello #strong[PESO]. Il nome deriva dalle iniziali di quattro tipi
@@ -199,26 +176,4 @@ Un’azienda presenta i propri valori sul sito \(istituzionale), invia
 indicazioni ai dipendenti per organizzare i turni \(gestionale),
 promuove un nuovo prodotto \(commerciale) e comunica agli investitori i
 risultati di bilancio \(economico-finanziaria).
-]
-
-== Funzioni aziendali e aree della comunicazione
-Le quattro aree della comunicazione sono spesso gestite da
-#strong[uffici diversi] all’interno dell’impresa. Di solito, le
-#strong[Relazioni Pubbliche] seguono la comunicazione istituzionale, il
-#strong[Marketing] quella commerciale, le #strong[Risorse Umane] \(HR)
-quella gestionale e l’#strong[Amministrazione e Controllo] o la
-#strong[Direzione Generale] quella economico-finanziaria.
-
-Questa separazione consente di affidare ogni attività a persone
-competenti, ma può rendere più difficile il #strong[coordinamento].
-Uffici con responsabili, obiettivi e budget diversi possono lavorare
-senza confrontarsi. Quando si comportano come compartimenti chiusi,
-chiamati anche #strong[silos], rischiano conflitti, duplicazioni e
-messaggi incoerenti. Invece di creare valore, possono danneggiarlo.
-
-#esempio[
-Il Marketing annuncia un servizio che partirà lunedì, ma il reparto che
-deve offrirlo non è stato informato. La pubblicità e l’organizzazione
-interna non sono coordinate: i clienti riceveranno una promessa che
-l’azienda non è pronta a mantenere.
 ]

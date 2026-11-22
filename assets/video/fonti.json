@@ -99,5 +99,16 @@
     "titolo_youtube": "The Subaru Baracca Journey | Aldo Giovanni and Giacomo - Tel chi el telun",
     "autore": "Aldo Giovanni e Giacomo Ufficiale",
     "metadati_verificati": true
+  },
+  {
+    "caso": 11,
+    "capitolo": 2,
+    "video": "Domino’s Pizza – Pizza Turnaround",
+    "url": "https://www.youtube.com/watch?v=AH5R56jILag",
+    "miniatura": "https://i.ytimg.com/vi/AH5R56jILag/mqdefault.jpg",
+    "asset": "assets/video/dominos-pizza-turnaround.jpg",
+    "titolo_youtube": "Domino's® Pizza Turnaround",
+    "autore": "Domino's Pizza",
+    "metadati_verificati": true
   }
 ]

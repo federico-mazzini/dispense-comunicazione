@@ -5,10 +5,10 @@
 #let altezza-corpo = 390pt
 #let sfondo = rgb("#fbf4f3")
 
-#let presentazione(body) = {
-  set document(title: "La comunicazione")
+#let presentazione(body, titolo: "La comunicazione") = {
+  set document(title: titolo)
   set page(width: 960pt, height: 540pt, margin: (x: 48pt, top: 26pt, bottom: 32pt),
-    footer: context align(right, text(size: 13pt, fill: grigio)[La comunicazione · #counter(page).display() / #counter(page).final().first()]))
+    footer: context align(right, text(size: 13pt, fill: grigio)[#titolo · #counter(page).display() / #counter(page).final().first()]))
   set text(font: "Libertinus Serif", size: 26pt, lang: "it", hyphenate: false, fill: rgb("#202020"))
   set par(leading: 0.44em, spacing: 0.8em, justify: false)
   set list(indent: 4pt, body-indent: 11pt, tight: false, spacing: 0.5em)
@@ -28,13 +28,14 @@
   }
 }
 
-#let slide(titolo, body) = page[
+#let slide(titolo, body, centra: false) = page[
   #stack(dir: ttb, spacing: 0pt,
     rect(width: 40pt, height: 3pt, fill: rosso, stroke: none),
     v(10pt),
     text(size: 35pt, weight: "bold", fill: rosso, titolo),
-    v(30pt),
+    if centra { v(1fr) } else { v(30pt) },
     area-slide(body),
+    if centra { v(1fr) },
   )
 ]
 
@@ -51,6 +52,20 @@
   #stack(dir: ttb, spacing: 16pt, etichetta[Esempio], body)
 ]
 
+#let approfondimento-tipologia(titolo, sottotitolo, definizione, punti, caso, lettura) = slide(titolo)[
+  #set text(size: 24pt)
+  #stack(dir: ttb, spacing: 17pt,
+    text(size: 26pt, sottotitolo),
+    definizione,
+    list(spacing: 8pt, ..punti),
+    esempio[
+      #caso
+
+      #lettura
+    ],
+  )
+]
+
 #let domanda(body, titolo: "Domanda") = block(width: 100%, fill: sfondo, inset: (x: 16pt, y: 12pt), stroke: (left: 3pt + rosso))[
   #set text(size: 0.88em)
   #stack(dir: ttb, spacing: 16pt, etichetta(titolo), body)
@@ -58,15 +73,52 @@
 
 #let colonne(a, b) = grid(columns: (1fr, 1fr), gutter: 32pt, align: top + left, a, b)
 
+#let voce(titolo, body) = stack(dir: ttb, spacing: 15pt,
+  text(size: 25pt, weight: "bold", fill: rosso, titolo), body)
+
+#let copertina(titolo, domanda, sottotitolo) = page[
+  #v(94pt)
+  #stack(dir: ttb, spacing: 0pt,
+    rect(width: 60pt, height: 4pt, fill: rosso, stroke: none),
+    v(19pt),
+    text(size: 33pt, weight: "bold", fill: rosso, titolo),
+    v(26pt),
+    text(size: 46pt, weight: "bold", domanda),
+    v(16pt),
+    text(size: 28pt, sottotitolo),
+  )
+]
+
+#let riferimento(url, nome) = link(url, text(fill: rosso, weight: "bold")[#nome~↗])
+
+#let fonti-slide(..fonti) = block(above: 16pt)[
+  #set text(size: 17pt)
+  #fonti.pos().join([#text(fill: grigio)[~ · ~]])
+]
+
 // Il video e la descrizione si leggono insieme; le domande occupano tutta la larghezza.
-#let caso-video(titolo, video, url, miniatura, descrizione, domande) = slide(titolo)[
+#let caso-video(
+  titolo, video, url, miniatura, descrizione, domande,
+  pulsante: [Guarda il video su YouTube], fonti: (),
+) = if miniatura == none {
+  slide(titolo)[
+    #stack(dir: ttb, spacing: 20pt,
+      text(size: 27pt, descrizione),
+      link(url, text(size: 25pt, weight: "bold", fill: rosso)[#pulsante~↗]),
+      text(size: 18pt, fill: grigio, video),
+      line(length: 100%, stroke: 1pt + rgb("#d6c8c8")),
+      enum(..domande.map(q => text(size: 26pt, q))),
+    )
+    #if fonti.len() > 0 { fonti-slide(..fonti) }
+  ]
+} else { slide(titolo)[
   #stack(dir: ttb, spacing: 16pt,
     grid(columns: (300pt, 1fr), gutter: 25pt, align: left + horizon,
       link(url, if miniatura != none {
         image(miniatura, width: 300pt, height: 169pt, fit: "contain", alt: video)
       } else {
         block(width: 300pt, height: 169pt, fill: sfondo, inset: 18pt)[
-          #align(center + horizon)[#text(size: 25pt, weight: "bold", fill: rosso)[Guarda il video su YouTube]]
+          #align(center + horizon)[#text(size: 25pt, weight: "bold", fill: rosso, pulsante)]
         ]
       }),
       stack(dir: ttb, spacing: 10pt,
@@ -83,7 +135,8 @@
       )),
     ),
   )
-]
+  #if fonti.len() > 0 { fonti-slide(..fonti) }
+] }
 
 #let analisi-video(titolo, punti, concetto, nota: none, ciclo: false) = slide(titolo)[
   #stack(dir: ttb, spacing: 16pt,
