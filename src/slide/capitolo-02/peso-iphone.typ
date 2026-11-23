@@ -1,4 +1,4 @@
-#import "/styles/slides.typ": domanda, riferimento, rosso, sfondo, slide
+#import "/styles/slides.typ": riferimento, rosso, sfondo, slide
 #import "peso.typ": media
 
 #let cartella = "/assets/slide/capitolo-02/peso-iphone/"
@@ -27,11 +27,6 @@
       align(right, text(size: 17pt, riferimento(apple, [Apple · iPhone Duo]))),
     ),
   )
-  #v(14pt)
-  #domanda(titolo: "Domanda alla classe")[
-    #text(size: 24pt)[Come possiamo riconoscere le quattro categorie del modello PESO
-      nella comunicazione dell’iPhone~Duo?]
-  ]
 ]
 
 #let esempi = (
